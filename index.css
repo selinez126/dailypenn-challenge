@@ -1,0 +1,133 @@
+/* write your code below...  */
+
+body {
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  min-width: 400px;
+  max-width: 660px;
+}
+
+label {
+  border-color: #ececec;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 7px;
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 20px;
+  min-width: 400px;
+  max-width: 660px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+label:disabled {
+  cursor: default;
+}
+
+img {
+  width: inherit;
+  min-width: 400px;
+  max-width: 660px;
+}
+
+button {
+  border-radius: 7px;
+  border: none;
+  border-color: #446cb3;
+  padding: 9px;
+  background-color: #446cb3;
+  color: white;
+  cursor: pointer;
+  width: inherit;
+  min-width: 400px;
+  max-width: 660px;
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+button:active {
+  outline: none;
+}
+
+.hover {
+  border-color: #dae4f7;
+  background-color: #ebf3fb;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.click {
+  background-color: #446cb3;
+  color: white;
+}
+
+.aPrompt {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px;
+  min-width: 400px;
+  max-width: 660px;
+  padding-top: 15px;
+}
+
+.container {
+  background-color: white;
+  min-width: 400px;
+  max-width: 660px;
+  padding: 5px;
+}
+
+#displayResult {
+  margin-top: 20px;
+  background-color: #f0f4fc;
+  padding: 50px 20px 20px 20px;
+  border-radius: 7px
+}
+
+#exclamationId {
+  font-size: 23px;
+  line-height: 20px;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: bold;
+}
+
+#messageId {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Times New Roman", serif;
+}
+
+#photographer {
+  color: #446cb3;
+}
+
+#author {
+  padding-top: 10px;
+  line-height: 10px;
+  font-size: 19px;
+  color: #446cb3;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+#date {
+  line-height: 5px;
+  font-size: 13px;
+  font-family: "Times New Roman", serif;
+  color: grey;
+}

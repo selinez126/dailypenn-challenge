@@ -1,0 +1,20 @@
+1. How many hours did you spend on this challenge?
+~10 hrs. I spent some time beforehand reviewing jQuery and just everything in general.
+
+2. Describe the features you have implemented.
+All the required features:
+- display questions based on data (checkboxes with associated labels)
+- button for show result and retake quiz
+- select result based on which has most response (or is earlier in alphabet)
+Also:
+- a lot of styling with the options and changing the look based on hover, checked, etc.
+- tried so hard to make it an exact replica haha (pretty much the only thing I didn’t do is style disabled checkboxes)
+
+3. Describe the difficulties you faced (if any) while working on the challenge and how you tackled them.
+I had the most trouble with creating checkboxes within labels and identifying which goes with which to access the data upon submit and also do CSS.
+I addressed this by creating classes/ids that could be accessed and used the toggleClass method.
+ - Since a parent can’t change because of a child (hmm kind of like the quiz topic), a label can’t change based on a checkbox; radio buttons might’ve been much nicer.
+It was also challenging to deal with the state of the submit/reset button and associated changes, for which tracing the code step by step to debug helped.
+
+4. How much time can you spend each week working for DP Developers?
+Around 8 seems very doable, but my schedule’s pretty flexible.
